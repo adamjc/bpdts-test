@@ -1,0 +1,26 @@
+{
+  "name": "bpdts-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjc/bpdts-test.git"
+  },
+  "keywords": [],
+  "author": "Adam Cook",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/adamjc/bpdts-test/issues"
+  },
+  "homepage": "https://github.com/adamjc/bpdts-test#readme",
+  "devDependencies": {
+    "jest": "^26.4.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
