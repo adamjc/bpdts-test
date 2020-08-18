@@ -23,6 +23,7 @@ jobs:
       run: |-
         npm i
         npm test
+        mv node_modules src/node_modules
 
     - name: Build & Upload Artifacts
       run: |-
