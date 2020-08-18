@@ -55,7 +55,7 @@ Resources:
   Handler:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: fake-artist
+      FunctionName: bpdts-test
       Runtime: nodejs12.x
       CodeUri: src/
       Handler: index.handler
