@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "install": "find ./node_modules/* -mtime +10950 -exec touch {} \\;"
   },
   "repository": {
     "type": "git",
