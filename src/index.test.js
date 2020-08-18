@@ -1,6 +1,4 @@
-const handler = require('./index.js')
-const getUsersInLondon = require('./get-users-in-london.js')
-const getLondonResidents = require('./get-london-residents.js')
+const { handler } = require('./index.js')
 const fetch = require('node-fetch')
 
 jest.mock('node-fetch')
