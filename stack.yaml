@@ -57,7 +57,7 @@ Resources:
     Properties:
       FunctionName: fake-artist
       Runtime: nodejs12.x
-      CodeUri: server/
+      CodeUri: src/
       Handler: index.handler
       Policies:
         -
