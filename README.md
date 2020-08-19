@@ -2,6 +2,11 @@
 
 URL: https://38zghphr1f.execute-api.eu-west-1.amazonaws.com/
 
+Stack:
+- CI/CD Pipeline: This is using GitHub Actions, and viewable under the `.github` folder
+- Source: This uses node.js and is viewable under `src`. Run `npm i && npm test` to run the tests
+- Infrastructure: This uses CloudFormation and is viewable in `stack.yaml`
+
 Further improvements:
 - Maintainability: config-drive url endpoints if they are liable to change
 - Testing: Better / More robust integration / unit tests (e.g. test more scenarios)
