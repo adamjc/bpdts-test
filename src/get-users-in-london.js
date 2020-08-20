@@ -15,15 +15,13 @@ function isWithinRadius ({ latitude, longitude }) {
 }
 
 module.exports = async function () {
-  let users
   try {
-    users = await fetch(ENDPOINT).then(res => res.json())
+    const users = await fetch(ENDPOINT).then(res => res.json())
 
     return users.filter(isWithinRadius)
   } catch (e) {
-    users = []
     console.error({ message: `Error fetching ${ENDPOINT}`, e })
-  }
 
-  return users
+    return []
+  }
 }
