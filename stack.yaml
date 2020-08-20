@@ -59,6 +59,7 @@ Resources:
       Runtime: nodejs12.x
       CodeUri: src/
       Handler: index.handler
+      Timeout: 15
       Policies:
         -
           Statement:
